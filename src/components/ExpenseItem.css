@@ -6,7 +6,9 @@
   padding: 0.5rem;
   margin: 1rem 0;
   border-radius: 12px;
-  background-color: #4b4b4b;
+  background-color: #12074b;
+  color: aliceblue;
+  text-align: center;
 }
 .expense-item__description {
   display: flex;
