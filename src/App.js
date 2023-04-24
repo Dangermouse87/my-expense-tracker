@@ -1,7 +1,9 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
+import "./App.css"
+import React, { useState } from "react";
 //enable use of function from external files
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -30,7 +32,7 @@ function App() {
   ];
 
   return (
-    <div>
+    <div class="app">
       <h2>Expenses List!</h2>
       <Expenses expenses={expenses} />
     </div>
