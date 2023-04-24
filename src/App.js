@@ -1,6 +1,7 @@
 import Expenses from "./components/Expenses/Expenses";
 import "./App.css"
-import React, { useState } from "react";
+import React from "react";
+import NewExpense from "./components/NewExpense/NewExpense";
 //enable use of function from external files
 
 const App = () => {
@@ -33,7 +34,7 @@ const App = () => {
 
   return (
     <div class="app">
-      <h2>Expenses List!</h2>
+      <NewExpense />
       <Expenses expenses={expenses} />
     </div>
   );
